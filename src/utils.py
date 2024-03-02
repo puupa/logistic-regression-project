@@ -8,6 +8,9 @@ load_dotenv()
 
 def db_connect():
     import os
-    engine = create_engine(os.getenv('DATABASE_URL'))
+
+    engine = create_engine(
+        os.getenv("DATABASE_URL").replace("postgres://", "postgresql://")
+    )
     engine.connect()
     return engine
