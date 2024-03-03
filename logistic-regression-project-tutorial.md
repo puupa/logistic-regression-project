@@ -35,7 +35,7 @@ To address this problem we will create a ranking algorithm to help predict wheth
 
 #### Step 1: Loading the dataset
 
-The dataset can be found in this project folder under the name `bank-marketing-campaign-data.csv`. You can load it into the code directly from the link (`https://raw.githubusercontent.com/4GeeksAcademy/logistic-regression-project-tutorial/main/bank-marketing-campaign-data.csv`) or download it and add it by hand in your repository. In this dataset you will find the following variables:
+The dataset can be found in this project folder under the name `bank-marketing-campaign-data.csv`. You can load it into the code directly from the [link](https://raw.githubusercontent.com/4GeeksAcademy/logistic-regression-project-tutorial/main/bank-marketing-campaign-data.csv) or download it and add it by hand in your repository. In this dataset you will find the following variables:
 
 1. `age`. Age of customer (numeric)
 2. `job`. Type of job (categorical)
